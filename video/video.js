@@ -14,3 +14,8 @@ switchBtn.addEventListener("click", function () {
     video.pause();
   }
 });
+
+const preloader = document.querySelector(".preloader");
+window.addEventListener("load",function(){
+  preloader.classList.toggle("hide-preloader");
+});
