@@ -243,9 +243,9 @@ nav {
     color: var(--clr-secondary);
 }
 
-/* .fixed-nav .links-container {
+.fixed-nav .links-container {
   height: auto !important;
-} */
+}
 .nav-header {
     display: flex;
     align-items: center;
@@ -298,6 +298,7 @@ nav {
 @media screen and (min-width: 800px) {
     nav {
         background: transparent;
+        
     }
 
     .nav-center {
@@ -307,6 +308,7 @@ nav {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        
     }
 
     .nav-header {
